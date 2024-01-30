@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "pms-terraform-state"
+    bucket = "myexp-terraform-state"
     key    = "parameter-store/terraform.tfstate"
     region = "us-east-1"
   }
